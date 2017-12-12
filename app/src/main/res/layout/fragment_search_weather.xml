@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/linear_layout"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/textColor">
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_autocomplete"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="16dp">
+                <fragment
+                    android:id="@+id/place_autocomplete_fragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:name="com.google.android.gms.location.places.ui.PlaceAutocompleteFragment" />
+            </android.support.v7.widget.CardView>
+        </FrameLayout>
+
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout_slider"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@color/textColor"
+            app:tabBackground="@color/textColor"
+            app:tabIndicatorColor="@android:color/white"
+            app:tabTextColor="@color/colorInAccent"
+            app:tabSelectedTextColor="@android:color/white"
+            app:tabMode="fixed"/>
+        <com.dreamteam.momentweather.SpecificWeather.WeatherViewPager
+            android:id="@+id/view_pager_slider"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/location_moving_card_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/shadowBegin">
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <include
+                android:id="@+id/location_fragment"
+                layout="@layout/location_moving_card" />
+        </FrameLayout>
+
+    </FrameLayout>
+
+
+
+    <RelativeLayout
+        android:id="@+id/loading_relative"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/moon_rotated"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/moon"/>
+            <ImageView
+                android:layout_width="180dp"
+                android:layout_height="120dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/moment_weather_text"/>
+            <TextView
+                android:id="@+id/byebye"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:textAlignment="center"
+                android:visibility="invisible"
+                android:textSize="30sp"
+                android:textColor="@android:color/white"/>
+            <Button
+                android:id="@+id/repeat_btn"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:layout_margin="16dp"
+                android:text="REPEAT"
+                android:textColor="@android:color/white"
+                android:background="@color/gray"
+                android:visibility="invisible"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>
