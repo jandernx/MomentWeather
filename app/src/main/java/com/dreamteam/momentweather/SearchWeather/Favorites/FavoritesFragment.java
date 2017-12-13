@@ -42,10 +42,6 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import retrofit2.Response;
 
-/**
- * Created by roman on 01.07.17.
- */
-
 public class FavoritesFragment extends Fragment{
 
     @BindView(R.id.favorites_recycler) RecyclerView favoritesRecycler;
