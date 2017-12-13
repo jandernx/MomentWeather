@@ -14,9 +14,6 @@
   
       За допомогою  Google Places API ми зробили свій додаток виділеним докладною інформацією про 100 мільйонів місць 
       у широкому діапазоні категорій, з тієї ж бази даних, що й у Картах Google.  
-### Screenshots
-
-[![|Solid](https://github.com/jandernx/MomentWeather/blob/master/screenshots/2.jpg)]() [![|Solid](https://github.com/jandernx/MomentWeather/blob/master/screenshots/1.jpg)]() 
 
     
 ## Платформа, мова програмування та тип дизайну
