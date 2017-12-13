@@ -8,10 +8,6 @@ import android.view.MotionEvent;
 
 import com.dreamteam.momentweather.R;
 
-/**
- * Created by roman on 25.06.17.
- */
-
 public class WeatherViewPager extends ViewPager {
 
     private boolean swiping;
