@@ -25,10 +25,6 @@ import java.util.concurrent.TimeUnit;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by roman on 24.06.17.
- */
-
 public class WeatherElementsAdapter extends RecyclerView.Adapter {
 
     final int MODE_DATE = 0;
