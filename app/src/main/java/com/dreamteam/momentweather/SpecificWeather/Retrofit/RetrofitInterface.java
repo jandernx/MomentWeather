@@ -8,10 +8,6 @@ import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
 
-/**
- * Created by roman on 25.06.17.
- */
-
 public interface RetrofitInterface {
 
     @GET("forecast/daily")
