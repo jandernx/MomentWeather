@@ -72,6 +72,17 @@
           Ця бібліотека робить завантаження JSON або XML-даних з веб-API досить простим. 
           Після завантаження даних, він конвертується у POJO,який повинен бути визначений для кожного "ресурсу" 
           у відповіді.
+          
+
+ 
+ 
+ # Лабораторна робота  № 6
+ ## Hardware
+   В даному проекті задіяний GPS модуль для місцезнаходження.Працюємо з ним посередньо тому що багато роботи замість нас робить 
+   Google Geo API.
+   [![|Solid](https://github.com/jandernx/MomentWeather/blob/master/app/src/main/java/com/dreamteam/momentweather/SearchWeather/Favorites/Location/LocationFragment.java)]() 
+
+ 
    
    
 
