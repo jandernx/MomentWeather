@@ -16,7 +16,7 @@
       у широкому діапазоні категорій, з тієї ж бази даних, що й у Картах Google.  
 ### Screenshots
 
-[![|Solid](https://github.com/jandernx/MomentWeather/blob/master/screenshots/photo_2017-12-13_02-39-55.jpg)]()
+[![|Solid]()]() [![|Solid]()]()
     
 ## Платформа, мова програмування та тип дизайну
    - Android 4.1+
