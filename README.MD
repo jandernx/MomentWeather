@@ -78,7 +78,7 @@
  
  # Лабораторна робота  № 6
  ## Hardware
-   В даному проекті задіяний GPS модуль для місцезнаходження.Працюємо з ним посередньо тому що багато роботи замість нас робить 
+   В даному проекті задіяний GPS модуль для місцезнаходження.Працюємо з ним посередньо, тому що багато роботи замість нас робить 
    Google Geo API.
    
    [Фрагмент коду](https://github.com/jandernx/MomentWeather/blob/master/app/src/main/java/com/dreamteam/momentweather/SearchWeather/Favorites/Location/LocationFragment.java)
