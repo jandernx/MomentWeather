@@ -2,7 +2,7 @@
 
 # Лабораторна робота  № 1 
 ## Виконали:
-1. [Осінній Дмитро](https://github.com/DimaOsinnii) -ІС-43
+1. [Осінній Дмитро](https://github.com/DimaOsinnii) - ІС-43
 2. [Ілуца Євген](https://github.com/jandernx) - ІС-43
 3. [Галактіонов Ілля](https://github.com/Dayrann) - ІС-42
 
@@ -14,6 +14,7 @@
     - Android 4.1+
     - Java(Android Studio IDE)
     - Material Design
+
 
 # Лабораторна робота  № 2
 ## Архітектура
