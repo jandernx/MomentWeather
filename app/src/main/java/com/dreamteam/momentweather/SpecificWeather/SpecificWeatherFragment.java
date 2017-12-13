@@ -45,10 +45,6 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import retrofit2.Response;
 
-/**
- * Created by roman on 24.06.17.
- */
-
 public class SpecificWeatherFragment extends Fragment {
 
     private Fragment daysFragment, hoursFragment, currentWeatherFragment;
