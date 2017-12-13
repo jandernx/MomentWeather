@@ -5,10 +5,6 @@ import android.graphics.Color;
 import android.graphics.drawable.Drawable;
 import android.graphics.drawable.GradientDrawable;
 
-/**
- * Created by roman on 30.06.17.
- */
-
 public class ThemeChooser {
     private String backStartCenterColor, panelColor, statusBarColor, endColor = "#00000000", photoUri;
 
