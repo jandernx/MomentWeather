@@ -37,7 +37,7 @@
 ### Схема Fragment:
    SpecificWeatherFragment; SearchWeatherFragment; HistoryFragment; FavoritesFragment; LocationFragment;
    DaysFragment; CurrentFragment;
-#### Приклад скріншоту
+#### Приклад
 [![|Solid](https://github.com/jandernx/MomentWeather/blob/master/screenshots/6.jpg)]() 
 
 ### Інструменти дизайну
