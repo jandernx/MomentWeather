@@ -27,10 +27,6 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import retrofit2.Response;
 
-/**
- * Created by roman on 01.07.17.
- */
-
 public class HistoryFragment extends Fragment {
 
     @BindView(R.id.search_result_recycler) RecyclerView historyRecycler;
