@@ -28,10 +28,6 @@ import java.util.Locale;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by roman on 24.06.17.
- */
-
 public class HoursFragment extends Fragment implements SpecificWeatherFragment.DataIsReadyListener{
 
     @BindView(R.id.hours_recycler_hours) RecyclerView hoursRecycler;
