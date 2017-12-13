@@ -36,7 +36,10 @@
    - application: application.java
 ### Схема Fragment:
    SpecificWeatherFragment; SearchWeatherFragment; HistoryFragment; FavoritesFragment; LocationFragment;
-   DaysFragment; CurrentFragment; 
+   DaysFragment; CurrentFragment;
+### Інструменти дизайну
+   - Photoshop
+   - GIMP(Linux)
     
 
 # Лабораторна робота  № 4
