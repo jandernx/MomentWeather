@@ -1,9 +1,5 @@
 package com.dreamteam.momentweather.SearchWeather.History;
 
-/**
- * Created by roman on 01.07.17.
- */
-
 public class HistoryElement {
 
     private String photoUri, cityName, id;
