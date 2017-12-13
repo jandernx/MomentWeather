@@ -28,10 +28,15 @@
    
 # Лабораторна робота  № 3
 ## Прототип екранів
-   Для верстки використовуємо xml тому що в проекті немає динамічного добавлення компонентів View.
-    Екран статичний.
+   - Для верстки використовуємо xml тому що в проекті немає динамічного добавлення компонентів View.
+   - Екран статичний.
    
- # Схема activity
+### Схема Activity:
+   - activity: main activity
+   - application: application.java
+### Схема Fragment:
+   SpecificWeatherFragment; SearchWeatherFragment; HistoryFragment; FavoritesFragment; LocationFragment;
+   DaysFragment; CurrentFragment; 
     
 
 # Лабораторна робота  № 4
