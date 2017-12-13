@@ -80,7 +80,8 @@
  ## Hardware
    В даному проекті задіяний GPS модуль для місцезнаходження.Працюємо з ним посередньо тому що багато роботи замість нас робить 
    Google Geo API.
-   [Код](https://github.com/jandernx/MomentWeather/blob/master/app/src/main/java/com/dreamteam/momentweather/SearchWeather/Favorites/Location/LocationFragment.java)
+   
+   [Фрагмент коду](https://github.com/jandernx/MomentWeather/blob/master/app/src/main/java/com/dreamteam/momentweather/SearchWeather/Favorites/Location/LocationFragment.java)
  
    
    
