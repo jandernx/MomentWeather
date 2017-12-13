@@ -37,6 +37,8 @@
 ### Схема Fragment:
    SpecificWeatherFragment; SearchWeatherFragment; HistoryFragment; FavoritesFragment; LocationFragment;
    DaysFragment; CurrentFragment;
+#### Screenshot example
+
 ### Інструменти дизайну
    - Photoshop
    - GIMP(Linux)
