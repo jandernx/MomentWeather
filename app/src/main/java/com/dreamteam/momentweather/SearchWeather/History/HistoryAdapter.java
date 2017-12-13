@@ -21,10 +21,6 @@ import java.util.List;
 
 import butterknife.ButterKnife;
 
-/**
- * Created by roman on 01.07.17.
- */
-
 public class HistoryAdapter extends RecyclerView.Adapter {
 
     private List<HistoryElement> historyElements;
