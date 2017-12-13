@@ -3,10 +3,6 @@ package com.dreamteam.momentweather.SpecificWeather.Retrofit;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-/**
- * Created by roman on 25.06.17.
- */
-
 public class RetrofitModule {
 
     private static Retrofit retrofit;
