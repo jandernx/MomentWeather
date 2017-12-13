@@ -46,10 +46,6 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-/**
- * Created by roman on 01.07.17.
- */
-
 public class SearchWeatherFragment extends Fragment{
 
     private SearchWeatherFragmentAdapter searchWeatherFragmentAdapter;
