@@ -38,6 +38,7 @@
    SpecificWeatherFragment; SearchWeatherFragment; HistoryFragment; FavoritesFragment; LocationFragment;
    DaysFragment; CurrentFragment;
 #### Screenshot example
+[![|Solid](https://github.com/jandernx/MomentWeather/blob/master/screenshots/2.jpg)]() 
 
 ### Інструменти дизайну
    - Photoshop
