@@ -5,10 +5,6 @@ import android.app.FragmentManager;
 import android.content.Context;
 import android.support.v13.app.FragmentStatePagerAdapter;
 
-/**
- * Created by roman on 01.07.17.
- */
-
 public class SearchWeatherFragmentAdapter extends FragmentStatePagerAdapter{
 
     private Fragment[] fragments;
