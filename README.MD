@@ -14,7 +14,9 @@
   
       За допомогою  Google Places API ми зробили свій додаток виділеним докладною інформацією про 100 мільйонів місць 
       у широкому діапазоні категорій, з тієї ж бази даних, що й у Картах Google.  
+### Screenshots
 
+[![|Solid](https://photos.google.com/search/_tra_/photo/AF1QipO9hJk9tusEr1khtqnCNz8W9D-vJYm5Z99-aKwa?hl=uk)]()
     
 ## Платформа, мова програмування та тип дизайну
    - Android 4.1+
