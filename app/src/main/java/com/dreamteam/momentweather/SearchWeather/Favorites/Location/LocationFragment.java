@@ -27,11 +27,6 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-
-/**
- * Created by User on 12.02.2017.
- */
-
 public class LocationFragment extends Fragment implements GoogleApiClient.ConnectionCallbacks, GoogleApiClient.OnConnectionFailedListener, LocationListener{
     private GoogleApiClient googleApiClient;
     private LocationRequest locationRequest;
