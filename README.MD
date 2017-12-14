@@ -57,6 +57,10 @@
    В нашому проекті ми використали БД для зберігання інформації про дії кінцевого користувача а саме: історія його переглядів ,обрані      місця.
    
    Дані які зберігаємо в базі данних: обрані місця,історія,назва міст,довгота,широта.
+   #### Схема бази даних
+[![|Solid](https://github.com/jandernx/MomentWeather/blob/master/screenshots/Database.png)]() 
+   
+ [Посилання на файл бази даних](https://github.com/jandernx/MomentWeather/blob/master/app/src/main/java/com/dreamteam/momentweather/SearchWeather/Favorites/FavoritesDatabase/DBHelper.java)
    
 # Лабораторна робота  № 5
 ## Робота з мережею
@@ -123,14 +127,4 @@
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; погоди обраного міста
 
 ## Висновки
-Під час виконання проекту ми ознайомилися із створенням мобільного програмного забезпечення під платформу Android на мові Java, були опановані наступні технології:
-    
-    -API
-        -Google Places API
-        -Google Geo API
-    -База даних
-        SQLite
-    -Архітектурний шаблон проектування 
-        MVP(Model-View-Presenter)
-<br>
-Під кінець, можна сказати, що ми отримали гарний досвід у розбробці мобільного ПО та був створений зручний додаток, що повністю задовольняє нашим початковим вимогам.
+Під час виконання проекту ми ознайомилися із створенням мобільного програмного забезпечення під платформу Android на мові Java, були використані наступні   був опанований архітектурний шаблон проектування MVP(Model-View-Presenter),
