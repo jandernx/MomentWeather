@@ -80,6 +80,11 @@
  ## Hardware
    В даному проекті задіяний GPS модуль для місцезнаходження.Працюємо з ним посередньо, тому що багато роботи замість нас робить 
    Google Geo API.
+  
+      Інтерфейс Google Maps Geolocation API повертає розташування і радіус похибки на основі інформації від веж стільникового 
+      зв'язку і точок доступу Wi-Fi, які може виявити мобільний клієнт.
+      Обмін даними здійснюється по протоколу HTTPS з використанням методу POST. Запит і відповідь представлені в форматі JSON, 
+      а контент може мати тип application або json.
    
    [Фрагмент коду](https://github.com/jandernx/MomentWeather/blob/master/app/src/main/java/com/dreamteam/momentweather/SearchWeather/Favorites/Location/LocationFragment.java)
  
